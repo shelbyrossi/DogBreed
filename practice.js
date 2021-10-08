@@ -66,3 +66,22 @@ const go = (Direction,Speed) => {
 const message = go("forwards",45)
 console.log(message)
 
+
+
+// EVENS OR ODDS
+
+const evenOrOdd = (number) => {
+
+    if (number % 2 == 0 ) {
+
+        return "even"
+
+    } else {
+
+        return `odd`
+
+    }
+}
+const result = evenOrOdd(12)
+console.log(`${result}`)
+
