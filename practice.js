@@ -23,20 +23,46 @@
 // }
 
 
-
+// BEST IN SHOW 
 const getDog = (dogBreed) => {
 
-    if (dogBreed === "meow"){
+    if (dogBreed === "meow") {
 
-       return  "I like cats"
+        return "I like cats"
 
-    }else{
+    } else {
 
-       return `My favorite dog is a ${dogBreed}`
+        return `My favorite dog is a ${dogBreed}`
 
     }
 }
-    const dog = getDog("meow")
-    console.log(`When it comes to pets, ${dog}`)
+const dog = getDog("meow")
+console.log(`When it comes to pets, ${dog}`)
 
+
+
+
+// ADDITION
+
+
+const add = (first, second, third) => {
+    const sum = first + second + third
+    return sum
+}
+
+const total = add(17,4,11)
+console.log(total)
+
+
+
+// // SELF DRIVING CARS 
+
+const go = (Direction,Speed) => {
+    
+    const car = `The car is moving ${Direction} at ${Speed} mph`
+    return car   
+}
+
+const message = go("forwards",45)
+console.log(message)
 
